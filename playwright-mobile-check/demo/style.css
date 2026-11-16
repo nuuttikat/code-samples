@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { margin: 0; font: 16px/1.5 system-ui, sans-serif; color: #111; }
+header, main { padding: 16px; }
+nav { display: flex; gap: 12px; flex-wrap: wrap; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.card { border: 1px solid #ddd; border-radius: 8px; padding: 12px; }
+.chips { display: flex; gap: 8px; overflow-x: auto; }
+.chips span { flex: none; padding: 4px 10px; border-radius: 99px; background: #eee; }
+img, input, textarea { max-width: 100%; }
+label { display: block; margin-top: 8px; }
+input, textarea { width: 100%; padding: 8px; font: inherit; }
